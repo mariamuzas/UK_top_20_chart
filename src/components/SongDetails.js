@@ -1,6 +1,8 @@
-const SongDetails = () => {
+const SongDetails = ({children, artist}) => {
     return (
-        <p>this are the song details</p>
+        <>
+        <li>{children} by {artist}</li>
+        </>
     )
 }
 
