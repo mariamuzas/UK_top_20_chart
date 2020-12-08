@@ -14,10 +14,14 @@ hr{
     border: 1px solid #ff416a;
 }
 
+li {
+    color: aliceblue;
+}
+
 img {
   width: 8vh;
   border-radius: 5px;
-  padding-right: 25px;
+  padding-right: 35px;
   padding-bottom: 25px;
 }
 
