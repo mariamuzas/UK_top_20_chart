@@ -1,15 +1,18 @@
-import '../components/'
+import './SongDetails.css';
 
 const SongDetails = ({children, artist, image}) => {
     return (
         <>
+        <div className= "item">
         <img src={image} alt="" />
-        <li> 
-            <div className = "details">
-                <p>{children}</p>
-                <p>{artist}</p>
-            </div>
-        </li>
+            <li> 
+            <hr/>
+                <div className = "details">
+                    <p className = "song">{children}</p>
+                    <p className="artist">{artist}</p>
+                </div>
+            </li>
+        </div>
         </>
     )
 }

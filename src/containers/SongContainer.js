@@ -1,5 +1,6 @@
 import SongList from "../components/SongList";
 import {useState, useEffect} from 'react'
+import '../App.css'
 
 const SongContainer = () => {
 
@@ -17,9 +18,14 @@ const SongContainer = () => {
     }, [])
 
     return (
-        <>
-            <h1>This is the SongContainer</h1>
+        < >
+        <div className= "container">
+            <div className = "header">
+                <h1>UK top 20 song</h1>
+                <p>Last updates: </p>
+            </div>
             <SongList songs={songs}/> 
+            </div>
         </>
     )
 }

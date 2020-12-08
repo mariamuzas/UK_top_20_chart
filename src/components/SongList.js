@@ -14,7 +14,6 @@ const SongList = ({songs}) => {
     })
      return (
          <>
-         <p>This is the SongList component</p>
          <ol>
              {songList}
          </ol>
