@@ -9,6 +9,17 @@
   margin: 0 auto;
 }
 
+.songList {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3; 
+}
+
+.songList > * {
+   flex-basis: 30%;
+   margin: 5px 20px;
+}
+
 .header {
   text-align: center;
   padding: 5px;

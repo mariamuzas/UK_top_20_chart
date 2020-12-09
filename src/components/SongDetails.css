@@ -3,6 +3,7 @@
     height: 10vh;
     display: flex;
     flex-direction: column;
+    margin: 10px;
     
 }
 
@@ -12,16 +13,18 @@
 
 hr{
     border: 1px solid #ff416a;
+    margin: 0 5px;
 }
 
 li {
     color: aliceblue;
+    margin: 0 30px;
 }
 
 img {
   width: 8vh;
   border-radius: 5px;
-  padding-right: 35px;
+  padding-right: 3px;
   padding-bottom: 25px;
 }
 

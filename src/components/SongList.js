@@ -1,4 +1,5 @@
 import SongDetails from "./SongDetails";
+import '../App.css'
 
 const SongList = ({songs}) => {
 
@@ -14,7 +15,7 @@ const SongList = ({songs}) => {
     })
      return (
          <>
-         <ol>
+         <ol className= "songList">
              {songList}
          </ol>
          </>
